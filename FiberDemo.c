@@ -1,8 +1,6 @@
-#include <signal.h>
 #include <bits/sigstack.h>
 #include <stdio.h>
 #include <ucontext.h>
-#include <unistd.h>
 
 ucontext_t utp, utc;
 int c;
